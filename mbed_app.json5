@@ -3,6 +3,9 @@
         "*": {
             "platform.stdio-baud-rate": 115200,
             "platform.stdio-buffered-serial": 1
+        },
+        "BLUEPILL_F103C8":{
+            "target.application-profile": "bare-metal"
         }
     }
 }
