@@ -34,7 +34,8 @@ include(mbed-os/tools/cmake/mbed_toolchain_setup.cmake)
 ### Set up your project.
 # The project name will be made available in the ${PROJECT_NAME} variable.
 # If you like, you can specify a version here, which CMake will make available in the ${PROJECT_VERSION} variable.
-project(MbedCEHelloWorld
+get_filename_component(ROOT_FOLDER_NAME "${CMAKE_SOURCE_DIR}" NAME)
+project(${ROOT_FOLDER_NAME}
         # VERSION 1.0.0
         LANGUAGES C CXX ASM)
 

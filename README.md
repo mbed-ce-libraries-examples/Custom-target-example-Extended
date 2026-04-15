@@ -4,7 +4,7 @@
   Under this block replace the text with a name of new library and some short description.
 -->
 # Custom-target-example-Extended
-This example is based on [mbed-ce-custom-targets](https://github.com/mbed-ce/mbed-ce-custom-targets) and demonstrate how to run custom targets under MbedCE on already existing and obsolate targets. For example we present [BluePill STM32F103](https://github.com/mbed-ce-libraries-examples/custom_targets/tree/main/TARGET_BLUEPILL_F103C8)
+This example is based on [mbed-ce-custom-targets](https://github.com/mbed-ce/mbed-ce-custom-targets) and demonstrate how to run [custom targets](https://github.com/mbed-ce-libraries-examples/custom_targets) under MbedCE. For example [BluePill STM32F103](https://github.com/mbed-ce-libraries-examples/custom_targets/tree/main/TARGET_BLUEPILL_F103C8)
 
 <!--
   Under this block edit How to start with the library under MbedCE
